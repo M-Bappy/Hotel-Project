@@ -1,0 +1,80 @@
+ /* start hero area */
+ 
+ .hero-area {
+     background-image: url(../img/heroBG.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 198px 0 176px;
+     position: relative;
+     background-position: center center;
+ }
+ 
+ .hero-area::before {
+     position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(20, 12, 64, .4);
+     /* z-index: -1; */
+ }
+ 
+ .hero-area .hero-content {
+     text-align: center;
+     position: relative;
+     z-index: 99;
+ }
+ 
+ .hero-area .hero-content h1 {
+     font-size: 62px;
+     color: var(--white);
+ }
+ 
+ .hero-area .hero-content .sub-title {
+     font-size: 18px;
+     color: var(--white);
+     margin-bottom: 50px;
+ }
+ 
+ .hero-area .hero-content .selection-area {
+     background-color: #fff;
+     padding: 10px 0;
+ }
+ 
+ .select2-container--default .select2-selection--single {
+     border: 0;
+ }
+ 
+ .hero-area .hero-content .property-type {
+     border-left: 1px solid #80808054;
+     padding-left: 10px;
+ }
+ 
+ .hero-area .hero-content .property-type .select-wrapper {
+     width: 100%;
+ }
+ 
+ .hero-area .hero-content .location {
+     border-left: 1px solid #80808054;
+     padding-left: 10px;
+ }
+ 
+ .hero-area .hero-content .selection-area .property-name input {
+     border: 1px solid rgba(20, 12, 64, .1);
+     margin-bottom: 15px;
+ }
+ 
+ .hero-area .hero-content .selection-area .btns-area .btn2 {
+     line-height: 55px;
+     background-color: #fd5332;
+     color: var(--white);
+     cursor: pointer;
+     padding: 0 10px;
+     border-radius: 3px;
+ }
+ 
+ .hero-area .hero-content .selection-area .select-wrapper {
+     border: none;
+ }
+ /* end hero area */

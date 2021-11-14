@@ -1,0 +1,60 @@
+ /* start recent property */
+ 
+ .recent-property {
+     background-color: var(--bgTwo);
+ }
+ 
+ .recent-property .section-heading {
+     margin-bottom: 40px;
+ }
+ 
+ .recent-property .recent-property-item {
+     background: var(--white);
+     box-shadow: 0 0 10px 1px #80808012;
+     padding: 12px;
+     border-radius: 5px;
+ }
+ 
+ .recent-property .recent-property-item .recent-protery-img {
+     height: 100%;
+ }
+ 
+ .recent-property .recent-property-item img {
+     border-radius: 3px;
+     height: 100%;
+     max-height: 100%;
+ }
+ 
+ .recent-property .recent-property-item .item-text {}
+ 
+ .recent-property .recent-property-item .item-text h3 {
+     font-size: 20px;
+     text-transform: capitalize;
+     color: var(--heading-color);
+     transition: .3s;
+     margin-top: 10px;
+ }
+ 
+ .recent-property .recent-property-item .item-text h3:hover {
+     color: rgba(243, 59, 59, 0.746);
+ }
+ 
+ .recent-property .recent-property-item .item-text .sale-btn {
+     background-color: #e5f6f3;
+     color: #03a98a;
+     text-transform: capitalize;
+     padding: 5px 10px;
+     border-radius: 20px;
+ }
+ 
+ .recent-property .recent-property-item .item-text .amount-time {
+     align-items: center;
+     margin-top: 30px;
+     margin-bottom: 15px;
+ }
+ 
+ .recent-property .recent-property-item .item-text .amount-time .amount {
+     font-size: 25px;
+     color: var(--secondary-color);
+ }
+ /* end recent property */

@@ -1,0 +1,85 @@
+ /* start featers */
+ 
+ .featers .section-heading {
+     margin-bottom: 10px;
+ }
+ 
+ .featers .container .row:nth-last-child() {
+     margin-top: 30px;
+ }
+ 
+ .featers-item {
+     position: relative;
+     padding: 7px;
+     border-radius: 3px;
+     box-shadow: 0px 0px 30px 1px #80808042;
+     margin-top: 30px;
+ }
+ 
+ .featers-item>img {
+     border-radius: 3px;
+ }
+ 
+ .featers-item .feters-text {
+     padding: 20px;
+     border-bottom: 1px solid #80808042;
+ }
+ 
+ .featers-item .feters-text h4 {
+     margin-bottom: 0;
+     font-size: 16px;
+     color: var(--heading-color);
+ }
+ 
+ .featers-item .feters-text span {
+     font-size: 13px;
+ }
+ 
+ .featers-item .beds {}
+ 
+ .featers-item .beds {
+     padding: 10px;
+ }
+ 
+ .featers-item .beds .bed {
+     margin-right: 10px;
+ }
+ 
+ .featers-item .beds .bed img {
+     height: 12px;
+     margin-right: 5px;
+ }
+ 
+ .featers-item .beds .bath {}
+ 
+ .featers-item .beds .bath img {
+     height: 12px;
+     margin-right: 5px;
+ }
+ 
+ .featers-item .sale-btn {
+     display: inline-block;
+     position: absolute;
+     bottom: 149px;
+     left: 20px;
+     background-color: var(--primary-color);
+     color: var(--white);
+     text-transform: capitalize;
+     padding: 5px 16px;
+     border: 5px solid #bdbdbd;
+     border-radius: 47px;
+ }
+ 
+ .featers-item .user {
+     position: absolute;
+     bottom: 114px;
+     right: 19px;
+ }
+ 
+ .featers-item .user img {
+     max-width: 50px;
+     max-height: 50px;
+     border-radius: 50%;
+     border: 4px solid #bdbdbd4f;
+ }
+ /* end featers */

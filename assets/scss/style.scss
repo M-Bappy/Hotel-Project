@@ -1,0 +1,59 @@
+    /*
+------------- Table of content ----------------
+
+Template Name: verio Real State
+Template URI: 
+Description: the template is about real state
+Author: Bappy
+Author URI: 
+Version: 1.0
+
+---------------------- common content ----------
+#.body reset content
+#.header area
+#.footer
+#.hero-banner-area
+#.button
+
+*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700&display=swap');
+    @font-face {
+        font-family: muli;
+        src: url(../muli/muli.regular.ttf);
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    @font-face {
+        font-family: muli;
+        src: url(../muli/Muli-SemiBold.ttf);
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    @font-face {
+        font-family: muli;
+        src: url(../muli/Muli-Bold.ttf);
+        font-style: normal;
+        font-weight: 700;
+    }
+    
+    // variable
+    @import "variable/_variable.scss";
+    // mixin
+    @import "mixin/_mixin.scss";
+    // body reset content
+    @import "reset/_predefine.scss";
+    // component content
+    @import "section/header/header";
+    @import "section/footer/footer";
+    @import "section/hero/hero";
+    @import "section/featers/featers";
+    @import "section/latestNews/latestNews.scss";
+    @import "section/property/property";
+    @import "section/gallery/gallery";
+    @import "section/clientReview/clientRev";
+    @import "section/footer/footer";
+    @import "section/about/about";
+    @import "section/propertyPage/property";

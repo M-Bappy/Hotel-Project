@@ -1,0 +1,46 @@
+ /* start client review */
+ 
+ .client {
+     background-color: var(--bgTwo);
+ }
+ 
+ .client .user {
+     padding: 0 35px 23px 0;
+     margin-top: 80px;
+     text-align: center;
+     box-shadow: 0 0 20px 2px #80808021;
+     border-radius: 6px;
+     background-color: var(--white);
+ }
+ 
+ .client .user img {
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     box-shadow: 0 0 10px 2px #80808040;
+     margin-top: -40px;
+ }
+ 
+ .client .user h4 {
+     margin-top: 10px;
+ }
+ 
+ .client .user span {
+     font-size: 13px;
+ }
+ 
+ .client .user p {
+     margin-top: 15px;
+     margin-bottom: 13px;
+ }
+ 
+ .client .user .starts i {
+     margin-right: 5px;
+     font-size: 12px;
+     color: #ff9800;
+ }
+ 
+ .client .user .starts i:last-child {
+     margin: 0;
+ }
+ /* end client review */

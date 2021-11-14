@@ -1,0 +1,58 @@
+/*start about page*/
+
+
+/*start banner */
+
+.section-banner {
+    position: relative;
+    background-image: url("../img/aboutPage/banner-bg.jpg");
+    @include background-content();
+    .section-text {
+        color: var(--white);
+        h2 {
+            margin-top: 10px;
+            font-size: 30px;
+            color: var(--white);
+            font-weight: 600;
+        }
+        position: relative;
+        z-index:99;
+    }
+    padding: 120px 0 50px 0;
+    &::before {
+        @include overlay($opacity: 0.5, $lay-color: var(--primary-color));
+    }
+}
+
+.section-location {
+    background-color: var(--bgTwo);
+    .locations {
+        .location-item {
+            padding: 30px;
+            margin-top: 80px;
+            text-align: center;
+            background-color: var(--white);
+            border-radius: 5px;
+            i {
+                font-size: 20px;
+                color: var(--secondary-color);
+                padding: 15px 18px;
+                border-radius: 50%;
+                background-color: var(--bgTwo);
+            }
+            h3 {
+                margin-top: 15px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+    padding-bottom:80px;
+}
+
+
+/*start banner */
+
+
+/*end about page*/
